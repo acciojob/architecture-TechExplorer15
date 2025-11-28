@@ -1,15 +1,13 @@
-/*  your css code here. If applicable */
- /* Page base styles */
-        body {
+ body {
             font-family: Arial, Helvetica, sans-serif;
             background: #f0f2f5;
             margin: 0;
             padding: 20px 0;
         }
 
-        /* Main fixed-width wrapper */
+        /* Main wrapper: required width 1100px */
         .page-wrapper {
-            width: 1100px;          /* Required width */
+            width: 1100px;
             margin: 0 auto;
             background: #ffffff;
             box-shadow: 0 0 10px rgba(0,0,0,0.08);
@@ -22,7 +20,6 @@
             margin-top: 0;
             font-size: 32px;
             text-align: center;
-            letter-spacing: 1px;
             color: #333;
         }
 
@@ -34,7 +31,7 @@
             line-height: 1.6;
         }
 
-        /* Image container at top */
+        /* Required imageContainer */
         .imageContainer {
             width: 100%;
             margin: 25px auto 35px;
@@ -49,7 +46,6 @@
             height: auto;
         }
 
-        /* Section title */
         .section-title {
             font-size: 24px;
             margin-bottom: 10px;
@@ -64,37 +60,28 @@
             line-height: 1.6;
         }
 
-        /* Table styles */
+        /* Table styling */
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 15px;
             background: #fafafa;
         }
 
-        th, td {
+        td {
             border: 1px solid #ddd;
             padding: 12px;
             vertical-align: top;
         }
 
-        th {
-            background: #0077b6;
-            color: #fff;
-            font-weight: normal;
-            text-align: center;
-            letter-spacing: 0.5px;
-        }
-
-        /* Column width requirements */
+        /* Column width requirements via attribute + class */
         .col-image-left,
         .col-image-right {
-            width: 200px;   /* Required width for first and last columns */
+            width: 200px;  /* first & last columns */
             text-align: center;
         }
 
         .col-text {
-            width: 600px;   /* Required width for middle column */
+            width: 600px;  /* middle column */
         }
 
         .architecture-img {
@@ -117,7 +104,6 @@
             font-size: 14px;
         }
 
-        /* Small footer */
         footer {
             margin-top: 30px;
             text-align: center;
